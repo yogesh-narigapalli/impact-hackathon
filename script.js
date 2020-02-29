@@ -23,23 +23,36 @@ var lane=document.getElementById("sigLane").value;
     console.log(dist);
     
 
-    if(dist<=100){
+    if(dist<=100&&dist>0){
         ra.innerHTML="Ambulance is under 100 mts";
-    }else {
+    }else if(dist>0) {
         ra.innerHTML="Ambulance is not under 100 mts";
 
     }
     if(lane==1&&dist<=100){
-        aa.innerHTML="Green"
+        aa.innerHTML="Green";
+        ba.innerHTML="Red";
+        ca.innerHTML="Red";
+        da.innerHTML="Red";
+
     }
     if(lane==2&&dist<=100){
-        ba.innerHTML="Green"
+        ba.innerHTML="Green";
+        aa.innerHTML="Red";
+        ca.innerHTML="Red";
+        da.innerHTML="Red";
     }
     if(lane==3&&dist<=100){
-        ca.innerHTML="Green"
+        ca.innerHTML="Green";
+        ba.innerHTML="Red";
+        aa.innerHTML="Red";
+        da.innerHTML="Red";
     }
     if(lane==4&&dist<=100){
-        da.innerHTML="Green"
+        da.innerHTML="Green";
+        ba.innerHTML="Red";
+        ca.innerHTML="Red";
+        aa.innerHTML="Red";
     }
 
 
