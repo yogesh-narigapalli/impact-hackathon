@@ -1,0 +1,38 @@
+.contain{
+    text-align: center;
+}
+
+input{
+    width: 60%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.btn{
+   
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+   
+}
+
+.btn:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+
+}
+.signal{
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    
+}
+
